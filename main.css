@@ -1,12 +1,31 @@
-h1 {
-  background-color: red;
+body {
+  background-color: gray;
+  color: white;
+  font-family: sans-serif;
 }
 
+h1 {
+  text-align: center;
+}
+.instructions {
+  text-align: center;
+  line-height: 8px;
+}
 .job {
-  color: blue;
+  color: white;
   border: 1px solid blue;
   padding: 20px;
   max-width: 400px;
+}
+
+.flex {
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.text {
+  width: 200px;
 }
 
 #list {
