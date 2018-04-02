@@ -31,7 +31,7 @@ const listJobs = () => {
 
 const appendDiv = (title, url, notes) => {
   let div = document.createElement('div')
-  div.innerHTML = `<h5>${title}</h5><p>url: ${url}</p><p>Notes: ${notes}</p>`
+  div.innerHTML = `<h5>${title}</h5><p><a href=${url}>View Job</a></p><p>Notes: ${notes}</p>`
   div.className = 'job'
   list.appendChild(div)
 }
