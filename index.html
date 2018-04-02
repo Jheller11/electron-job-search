@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Job Tracker</title>
+    <link rel='stylesheet' type="text/css" href='main.css'>
+</head>
+
+<body>
+    <h1>Job Search</h1>
+
+    <h3>New Job</h3>
+    <form>
+        <div>
+            <label for='title'>Title:</label>
+            <input type="text" name='title'>
+        </div>
+        <div>
+            <label for='url'>url:</label>
+            <input type="text" name='title'>
+        </div>
+
+        <div>
+            <label for='notes'>notes:</label>
+            <input type="text" name='title'>
+        </div>
+        <div>
+            <input type="submit" value='Create a Job'>
+        </div>
+    </form>
+    <main>
+        <h3>Tracked Jobs</h3>
+        <div id='list'></div>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

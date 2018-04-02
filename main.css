@@ -1,0 +1,15 @@
+h1 {
+  background-color: red;
+}
+
+.job {
+  color: blue;
+  border: 1px solid blue;
+  width: 40%;
+}
+
+#list {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
